@@ -1,0 +1,269 @@
+.menu-item img {
+  width: 250px;
+}
+
+.logo{
+  width: 300px;
+}
+
+.logo_bar{
+  margin: auto;
+  border-radius: 5px;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.intro-container {
+  font-family: Roboto;
+  color: #880a08;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.pioneer_con{
+  font-family: Roboto;
+  color: #880a08;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.pfp-con {
+  float: left;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  background-color: #880a08;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 5px;
+  row-gap: 5px;
+  margin-right: 20px;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfp-con img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.msg-con{
+  font-family: Roboto;
+  color: #880a08;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.designation,
+.year {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.year{
+  font-size: 14px;
+}
+
+.msg-heading {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pioneer_bg{
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.para, .pioneer-para {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.pioneer-para {
+  margin-right: 20px;
+}
+
+@media(max-width: 560px) {
+  .menu-item img {
+    width: 200px;
+    ;
+  }
+
+  .intro-container{
+    align-items: start;
+  }
+  .pfp-con{
+    height: 250px;
+  }
+
+  .pfp-con img {
+    width: 180px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .year,
+  .designation {
+    font-size: 12px;
+  }
+
+  .msg-heading {
+    font-size: 28px;
+    font-style: bold;
+    font-weight: 900;
+  }
+
+  .pioneer_bg{
+    font-size: 20px;
+  }
+  .para, .pioneer-para {
+    font-size: 16px;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .logo_bar{
+    width: 250px;
+  }
+}
+
+.about-heading-bar {
+  background-color: rgb(136, 10, 10);
+  margin-bottom: 5px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 8px black;
+}
+
+
+
+@media(max-width: 600px) {
+  .about-heading-bar {
+    font-size: 15px;
+  }
+}
+
+.image img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.image{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info-by-con{
+  align-items: center;
+  color: white;
+  display: flex;
+  padding-top: 10px;
+  background-color: #880a08;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 55%;
+  box-shadow: 2px 2px 8px black;
+}
+
+.sks-info{
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.info-by-heading{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sks-name{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.des0, .des1, .des2{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+@media(max-width: 560px){
+  .image img{
+    width: 120px;
+  }
+
+  .info-by-con{
+    width: 90%;
+  }
+
+  .info-by-heading{
+    font-size: 20px;
+  }
+
+  .sks-name{
+    font-size: 16px;
+  }
+
+  .des0, .des1, .des2{
+    font-size: 12px;
+  }
+}
+

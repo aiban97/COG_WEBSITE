@@ -1,0 +1,190 @@
+.pf-logo-con{
+  display: flex;
+  margin: auto;
+  background-color: #880a08;
+  justify-content: center;
+  width: 510px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 8px black;
+  margin-bottom: 20px;
+}
+
+.pf-logo{
+  width: 500px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  color: #880a08;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Roboto, Tahoma;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pfp-con {
+  background-color: #880a08;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.descriptions {
+  padding-left: 14px;
+}
+
+.pfp-con img {
+  width: 320px;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.designation,
+.dept {
+  font-size: 15px;
+}
+
+.msg-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.msg-content {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media(max-width: 560px) {
+  .descriptions {
+    padding-top: 3px;
+    padding-left: 5px;
+  }
+
+  .pf-logo{
+    width: 300px;
+  }
+
+  .pf-logo-con{
+    width: 300px;
+  }
+
+  .pfp-con img {
+    width: 180px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .dept,
+  .designation {
+    font-size: 11px;
+  }
+
+  .message-container h1 {
+    font-size: 20px;
+  }
+
+  .message-content {
+    font-size: 14px;
+  }
+}
+
+.heading-bar {
+  background-color: rgb(136, 10, 10);
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 8px black;
+}
+
+
+.pf-content-con {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.pf-dept-lists li {
+  font-family: Roboto, Tahoma;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #880a08;
+  list-style-type: none;
+
+}
+
+.pf-dept-lists li a {
+  color: #880a08;
+}
+
+@media(max-width: 600px) {
+  .heading-bar {
+    font-size: 15px;
+  }
+
+  .pf-dept-lists li {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 350px) {
+  .descriptions {
+    padding-top: 3px;
+    padding-left: 5px;
+  }
+
+  .pf-logo {
+    width: 250px;
+  }
+
+  .pf-logo-con {
+    width: 250px;
+  }
+
+  .pfp-con {
+    height: 135px;
+  }
+
+  .pfp-con img {
+    width: 140px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .dept,
+  .designation {
+    font-size: 9px;
+  }
+
+  .message-container h1{
+    font-size: 16px;
+  }
+
+  .message-content {
+    font-size: 14px;
+  }
+}
