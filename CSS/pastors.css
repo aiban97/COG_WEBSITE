@@ -1,16 +1,17 @@
-.pastor-desc{
+.pastor-desc {
   padding-left: 6px;
 }
 
-.name{
+.name {
   font-size: 14px;
   font-weight: 700;
 }
 
 .pastor-card {
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
-.pastor-card:hover{
+
+.pastor-card:hover {
   transform: translate3d(0, -1px, 0) scale(1.04);
 }
 
@@ -33,21 +34,27 @@
 .pastor-card:nth-child(6) {
   transition-delay: 700ms;
 }
+
 .pastor-card:nth-child(7) {
   transition-delay: 800ms;
 }
+
 .pastor-card:nth-child(8) {
   transition-delay: 900ms;
 }
+
 .pastor-card:nth-child(9) {
   transition-delay: 1000ms;
 }
+
 .pastor-card:nth-child(10) {
   transition-delay: 1100ms;
 }
+
 .pastor-card:nth-child(11) {
   transition-delay: 1200ms;
 }
+
 .pastor-card:nth-child(12) {
   transition-delay: 1300ms;
 }
