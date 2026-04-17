@@ -7,10 +7,6 @@
   font-weight: 700;
 }
 
-.pastor-card {
-  transition: all 0.1s ease-out;
-}
-
 .pastor-card:hover {
   transform: translate3d(0, -1px, 0) scale(1.04);
 }
